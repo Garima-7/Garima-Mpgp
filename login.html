@@ -17,7 +17,8 @@
             identifierType: "email",
             apiKey: "bba3faa5-3de0-46c9-b48c-32d18a8dbba5",
             onSuccess: (payload) => {
-                window.open("index.html")
+                window.open("index.html");
+                document.querySelector(".navbar-text a").textContent = "Log out";
             },
         };
         var sawo = new Sawo(config);
