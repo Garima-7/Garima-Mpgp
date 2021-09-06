@@ -10,6 +10,7 @@
 
 <body>
     <div id="sawo-container" style="height: 300px; width: 300px;"></div>
+    <div id="status"></div>
     <script src="https://websdk.sawolabs.com/sawo.min.js"></script>
     <script>
         var config = {
@@ -17,8 +18,9 @@
             identifierType: "email",
             apiKey: "bba3faa5-3de0-46c9-b48c-32d18a8dbba5",
             onSuccess: (payload) => {
+                document.getElementById("status").innerHTML =
+                    "Login Success";
                 window.open("index.html");
-                document.querySelector(".navbar-text a").textContent = "Log out";
             },
         };
         var sawo = new Sawo(config);
