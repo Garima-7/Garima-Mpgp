@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div id="sawo-container" style="height: 300px; width: 300px;"></div>
+    <script src="https://websdk.sawolabs.com/sawo.min.js"></script>
+    <script>
+        var config = {
+            containerID: "sawo-container",
+            identifierType: "email",
+            apiKey: "bba3faa5-3de0-46c9-b48c-32d18a8dbba5",
+            onSuccess: (payload) => {
+                console.log(payload)
+            },
+        };
+        var sawo = new Sawo(config);
+        sawo.showForm();
+    </script>
+</body>
+
+</html>
