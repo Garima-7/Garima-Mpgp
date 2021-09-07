@@ -1,5 +1,5 @@
 # Garima-Mpgp
-This project is all about <b>tours and tourism</b>.<br/>Currently I have implemented of India only.<b> The regions of india are divided as Northern India, Eastern India, Western India, Southern India, Central India</b> in which I have added the districts, best time to visit that place and the famous tourist places. <br/>My idea is to show all the details of india regarding tourism at one place so that it would be easy for everyone to search all the beautiful places to visit at lowest time.
+This project is all about <b>Tours and Travel</b>.<br/>Currently I have implemented of India only.<b> The regions of india are divided as Northern India, Eastern India, Western India, Southern India, Central India</b> in which I have added the districts, best time to visit that place and the famous tourist places. <br/>My idea is to show all the details of india regarding tourism at one place so that it would be easy for everyone to search all the beautiful places to visit at lowest time.
 ## Tech Stacks Used:-
 HTML, CSS and JavaScript.
 ## Libraries Used:-
