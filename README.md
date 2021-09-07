@@ -5,6 +5,6 @@ HTML, CSS and JavaScript.
 ## Libraries Used:-
 Bootstrap and JQuery.
 ## Future Enhancement In Project:-
-This project contains only East and North region only, will implement other regions also in near future. 
+This project contains only East and North region only, will implement other regions also in near future.<br/> I will also add GPS location tracker. 
 ## Resources Used:-
 I have added a chat bot too from chatbot.com that works according to the conditions given by us.<br/> I have used images from unsplash.com. 
